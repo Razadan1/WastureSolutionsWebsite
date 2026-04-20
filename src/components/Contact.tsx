@@ -68,8 +68,8 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-foreground mb-1">Email Us</h4>
-                  <a href="mailto:info@wasturesolutions.com" className="text-muted-foreground hover:text-primary transition-colors">
-                    info@wasturesolutions.com
+                  <a href="mailto:wasturesolutions@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                    wasturesolutions@gmail.com
                   </a>
                 </div>
               </div>
@@ -80,8 +80,8 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-foreground mb-1">Call Us</h4>
-                  <a href="tel:+2348012345678" className="text-muted-foreground hover:text-primary transition-colors">
-                    +234 801 234 5678
+                  <a href="tel:+2348027027725" className="text-muted-foreground hover:text-primary transition-colors">
+                    +234 802 702 7725
                   </a>
                 </div>
               </div>
@@ -93,7 +93,7 @@ export function Contact() {
                 <div>
                   <h4 className="text-lg font-semibold text-foreground mb-1">Visit Us</h4>
                   <p className="text-muted-foreground">
-                    Lagos, Nigeria<br />
+                    Kwara, Nigeria<br />
                     (Headquarters)
                   </p>
                 </div>

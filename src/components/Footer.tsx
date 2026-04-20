@@ -1,6 +1,6 @@
 import { Linkedin } from "lucide-react";
 import { SiX, SiInstagram } from "react-icons/si";
-const wastureLogoPath = "/images/wasture-logo.png";
+const wastureLogoPath = "/images/Wasture_Logo2.png";
 
 export function Footer() {
   const scrollTo = (id: string) => {
@@ -31,21 +31,21 @@ export function Footer() {
             </p>
             <div className="flex gap-4 mt-6">
               <a
-                href="#"
+                href="https://x.com/wasture360"
                 aria-label="X (Twitter)"
                 className="w-10 h-10 rounded-full flex items-center justify-center text-white/70 hover:text-[#EB5C00] border border-white/20 hover:border-[#EB5C00] transition-all"
               >
                 <SiX size={16} />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/wasture360/"
                 aria-label="Instagram"
                 className="w-10 h-10 rounded-full flex items-center justify-center text-white/70 hover:text-[#EB5C00] border border-white/20 hover:border-[#EB5C00] transition-all"
               >
                 <SiInstagram size={16} />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/company/wasture360/"
                 aria-label="LinkedIn"
                 className="w-10 h-10 rounded-full flex items-center justify-center text-white/70 hover:text-[#EB5C00] border border-white/20 hover:border-[#EB5C00] transition-all"
               >
@@ -89,21 +89,21 @@ export function Footer() {
             <ul className="space-y-3 text-sm text-white/70">
               <li>
                 <a
-                  href="mailto:info@wasturesolutions.com"
+                  href="mailto:wasturesolutions@gmail.com"
                   className="hover:text-[#EB5C00] transition-colors"
                 >
-                  info@wasturesolutions.com
+                  wasturesolutions@gmail.com
                 </a>
               </li>
               <li>
                 <a
-                  href="tel:+2348012345678"
+                  href="tel:+2348027027725"
                   className="hover:text-[#EB5C00] transition-colors"
                 >
-                  +234 801 234 5678
+                  +234 802 702 7725
                 </a>
               </li>
-              <li className="text-white/70">Lagos, Nigeria</li>
+              <li className="text-white/70">Kwara, Nigeria</li>
             </ul>
           </div>
         </div>

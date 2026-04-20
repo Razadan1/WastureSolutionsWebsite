@@ -17,7 +17,9 @@ export function About() {
             Pioneering a cleaner, greener Africa where waste is a resource, not a burden.
           </p>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Wasture Solutions is an environmental startup based in Lagos, Nigeria. We are on a mission to transform waste management through innovation, community engagement, and sustainable practices.
+            Wasture Solutions is a waste management startup dedicated to transforming organic waste into renewable resources. We leverage innovative technology and anaerobic digestion to convert waste into clean biogas and nutrient-rich bio-fertilizers.
+            </p>
+            <p>By combining smart logistics with community-driven sustainability, we are building a circular economy that powers homes, supports local agriculture and aim for a cleaner and greener environment across Nigeria.
           </p>
         </motion.div>
 
@@ -38,7 +40,7 @@ export function About() {
               <div>
                 <h3 className="text-xl font-bold text-foreground mb-2">Our Mission</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  To revolutionize waste management through innovation, community engagement, and sustainable practices. We believe in practical solutions that scale.
+                  To transform organic waste into sustainable energy and agricultural solutions through innovative technology, empowering communities to build a cleaner, self-sufficient, and sustainable future.
                 </p>
               </div>
             </div>
@@ -52,7 +54,7 @@ export function About() {
               <div>
                 <h3 className="text-xl font-bold text-foreground mb-2">Our Vision</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  A cleaner, greener Africa where waste becomes a sustainable value stream, empowering local economies and restoring natural ecosystems.
+                  To lead the global transition toward a zero-waste economy where organic resources are never lost, but continuously cycled to power and feed the world through innovative technology.
                 </p>
               </div>
             </div>
@@ -66,7 +68,7 @@ export function About() {
               <div>
                 <h3 className="text-xl font-bold text-foreground mb-2">Community First</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Change starts at the local level. We work directly with neighborhoods in Lagos to establish habits that last generations.
+                  Change starts at the local level. We work directly with neighborhoods in Kwara to establish habits that last generations.
                 </p>
               </div>
             </div>

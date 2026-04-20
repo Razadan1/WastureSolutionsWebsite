@@ -6,21 +6,21 @@ export function Services() {
   const services = [
     {
       title: "Smart Waste Collection",
-      description: "Efficient, tech-enabled routing for urban waste collection, reducing emissions and ensuring timely pickups across Lagos neighborhoods.",
+      description: "Streamlined, tech-enabled logistics for sourcing organic and biodegradable waste. Our optimized routing ensures consistent supply for our digestion facilities while reducing the carbon footprint of urban waste transport.",
       icon: Truck,
       color: "text-primary",
       bg: "bg-primary/10",
     },
     {
       title: "Recycling Initiatives",
-      description: "Processing plastics, glass, and paper into reusable materials. We partner with local manufacturers to close the loop on consumer waste.",
+      description: "Turning organic waste into high-grade biogas and nutrient-rich bio-fertilizers. By leveraging anaerobic digestion, we close the loop on food waste, providing clean energy solutions and supporting sustainable agriculture.",
       icon: Recycle,
       color: "text-secondary",
       bg: "bg-secondary/10",
     },
     {
       title: "Awareness Campaigns",
-      description: "Educational programs in schools and communities to build long-term sustainable habits and environmental stewardship.",
+      description: "Empowering communities through education on waste segregation and the benefits of renewable energy. We partner with local leaders to demonstrate how today's waste becomes tomorrow’s fuel and food security.",
       icon: Megaphone,
       color: "text-accent",
       bg: "bg-accent/10",

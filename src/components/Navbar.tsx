@@ -3,7 +3,7 @@ import { Menu, X, Moon, Sun, Linkedin } from "lucide-react";
 import { SiX, SiInstagram } from "react-icons/si";
 import { useTheme } from "./theme-provider";
 import { Button } from "./ui/button";
-const wastureLogoPath = "/images/wasture-logo.png";
+const wastureLogoPath = "/images/Wasture_Logo2.png";
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -77,21 +77,21 @@ export function Navbar() {
 
             <div className="flex items-center space-x-4 border-l pl-4 border-border">
               <a
-                href="#"
+                href="https://x.com/wasture360"
                 aria-label="X (Twitter)"
                 className="text-primary hover:text-[#EB5C00] transition-colors"
               >
                 <SiX size={18} />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/wasture360/"
                 aria-label="Instagram"
                 className="text-primary hover:text-[#EB5C00] transition-colors"
               >
                 <SiInstagram size={18} />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/company/wasture360/"
                 aria-label="LinkedIn"
                 className="text-primary hover:text-[#EB5C00] transition-colors"
               >
@@ -148,13 +148,13 @@ export function Navbar() {
               </button>
             ))}
             <div className="flex items-center space-x-6 px-3 pt-4 border-t border-border mt-2">
-              <a href="#" className="text-primary hover:text-[#EB5C00]">
+              <a href="https://x.com/wasture360" className="text-primary hover:text-[#EB5C00]">
                 <SiX size={20} />
               </a>
-              <a href="#" className="text-primary hover:text-[#EB5C00]">
+              <a href="https://www.instagram.com/wasture360/" className="text-primary hover:text-[#EB5C00]">
                 <SiInstagram size={20} />
               </a>
-              <a href="#" className="text-primary hover:text-[#EB5C00]">
+              <a href="https://www.linkedin.com/company/wasture360/" className="text-primary hover:text-[#EB5C00]">
                 <Linkedin size={20} />
               </a>
             </div>
