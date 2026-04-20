@@ -5,9 +5,9 @@ import { Dialog, DialogContent, DialogTitle } from "./ui/dialog";
 
 const images = [
   { id: 1, src: "/images/gallery-1.png", alt: "Waste collection truck in the city" },
-  { id: 2, src: "/images/gallery-2.png", alt: "Sorted recyclable plastics" },
+  { id: 2, src: "/images/biogas1.jpeg", alt: "Biogas Plant" },
   { id: 3, src: "/images/gallery-3.png", alt: "Volunteers at a community cleanup" },
-  { id: 4, src: "/images/gallery-4.png", alt: "Aesthetic arrangement of sorted waste" },
+  { id: 4, src: "/images/biogas2.jpeg", alt: "Biogas Plant" },
   { id: 5, src: "/images/gallery-5.png", alt: "Lush green landscape in Lagos" },
   { id: 6, src: "/images/activity-1.png", alt: "Beach clean up drive" },
 ];
