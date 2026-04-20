@@ -3,7 +3,7 @@ import { Menu, X, Moon, Sun, Linkedin } from "lucide-react";
 import { SiX, SiInstagram } from "react-icons/si";
 import { useTheme } from "./theme-provider";
 import { Button } from "./ui/button";
-const wastureLogoPath = "/images/Wasture_Logo2.png";
+const wastureLogoPath = "/images/wasture-logo.png";
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
