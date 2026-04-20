@@ -1,6 +1,6 @@
 # Wasture Solutions Website
 
-A modern, responsive, and professional landing page for **Wasture Solutions** — an environmental startup based in Lagos, Nigeria dedicated to transforming waste into sustainable value.
+A modern, responsive, and professional landing page for **Wasture Solutions** — an environmental startup based in Kwara, Nigeria dedicated to transforming waste into sustainable value.
 
 ## Brand Identity
 
