@@ -14,7 +14,7 @@ export function Hero() {
       {/* Background Image */}
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/images/hero-bg.png')" }}
+        style={{ backgroundColor: "#146b34" }}
       >
         <div className="absolute inset-0 bg-black/50 dark:bg-black/70 mix-blend-multiply" />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent" />

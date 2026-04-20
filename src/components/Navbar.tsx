@@ -55,7 +55,7 @@ export function Navbar() {
               <img
                 src={wastureLogoPath}
                 alt="Wasture Solutions"
-                className="h-14 w-auto object-contain"
+                className="h-28 w-auto mt-10 object-contain object-center"
               />
             </button>
           </div>

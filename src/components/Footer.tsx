@@ -1,6 +1,6 @@
 import { Linkedin } from "lucide-react";
 import { SiX, SiInstagram } from "react-icons/si";
-const wastureLogoPath = "/images/Wasture_Logo2.png";
+const wastureLogoPath = "/images/wasture-logo.png";
 
 export function Footer() {
   const scrollTo = (id: string) => {
@@ -23,10 +23,10 @@ export function Footer() {
               <img
                 src={wastureLogoPath}
                 alt="Wasture Solutions"
-                className="h-14 w-auto object-contain brightness-0 invert"
+                className="h-34 w-34 object-contain "
               />
             </button>
-            <p className="text-white/75 max-w-sm mt-4 text-sm leading-relaxed">
+            <p className="text-white/75 max-w-sm mt-0 text-sm leading-relaxed">
               Transforming waste into sustainable value through smart collection, recycling initiatives, and community engagement across Africa.
             </p>
             <div className="flex gap-4 mt-6">
