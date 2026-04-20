@@ -90,8 +90,8 @@ export function About() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-8">
-                <p className="text-white font-medium text-lg">Taking action in Lagos</p>
-                <p className="text-white/80 text-sm mt-1">Lekki Beach Clean-up Drive</p>
+                <p className="text-white font-medium text-lg">Upcoming: Environmental Sanitation Exercise.</p>
+                <p className="text-white/80 text-sm mt-1">Keep Ilorin Clean Drive</p>
               </div>
             </div>
             {/* Decorative element */}

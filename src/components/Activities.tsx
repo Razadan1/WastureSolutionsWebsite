@@ -31,29 +31,29 @@ import { useToast } from "@/hooks/use-toast";
 const initialActivities = [
   {
     id: "1",
-    title: "Lekki Beach Clean-up",
-    description: "Over 200 volunteers gathered to remove 5 tons of plastic waste from the shoreline.",
-    date: "2024-03-15",
+    title: "Environmental Clean-up Drive",
+    description: "Environmental Sanitation exercise and awareness in collaboration with Kwara Ministry of Environment and Youtch Climate Movement. Holding at Tanke, Ilorin, Kwara State.",
+    date: "2026-04-25",
     image: "/images/activity-1.png",
   },
   {
     id: "2",
-    title: "New Recycling Facility",
-    description: "Opened our new processing center capable of sorting 50 tons of PET daily.",
+    title: "Installation of Anaerobic Digester",
+    description: "Upcoming: Installation of our advanced anaerobic digester.",
     date: "2024-02-28",
     image: "/images/activity-2.png",
   },
   {
     id: "3",
     title: "School Awareness Tour",
-    description: "Educated over 5,000 students across Lagos on the importance of waste separation.",
-    date: "2024-01-10",
+    description: "Upcoming: School Awareness Tour on environmental stewardship.",
+    date: "2026-05-10",
     image: "/images/activity-3.png",
   },
   {
     id: "4",
     title: "Urban Tree Planting",
-    description: "Planted 500 indigenous trees in deforested urban zones to improve air quality.",
+    description: "Upcoming: Urban Tree Planting for a greener community. Within Ilorin.",
     date: "2023-11-05",
     image: "/images/activity-4.png",
   }
