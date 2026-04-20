@@ -63,7 +63,7 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
         >
-          We are pioneering smart waste collection, recycling initiatives, and community engagement in Lagos, Nigeria, building a cleaner and greener Africa.
+          We are pioneering efficient waste management, recycling initiatives, and community engagement in Kwara, Nigeria, building a cleaner and greener Africa.
         </motion.p>
         
         <motion.div 
