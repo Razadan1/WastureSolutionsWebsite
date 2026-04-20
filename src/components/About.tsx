@@ -91,7 +91,7 @@ export function About() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-8">
                 <p className="text-white font-medium text-lg">Upcoming: Environmental Sanitation Exercise.</p>
-                <p className="text-white/80 text-sm mt-1">Keep Ilorin Clean Drive</p>
+                <p className="text-white/80 text-sm mt-1">Keep Ilorin Clean Drive <time dateTime="2026-04-21">April 25, 2026</time></p>
               </div>
             </div>
             {/* Decorative element */}
