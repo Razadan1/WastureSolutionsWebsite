@@ -40,21 +40,21 @@ const initialActivities = [
     id: "2",
     title: "Installation of Anaerobic Digester",
     description: "Upcoming: Installation of our advanced anaerobic digester.",
-    date: "2024-02-28",
-    image: "/images/activity-2.png",
+    date: "2026-05-15",
+    image: "/images/bioplant.jpg",
   },
   {
     id: "3",
     title: "School Awareness Tour",
     description: "Upcoming: School Awareness Tour on environmental stewardship.",
-    date: "2026-05-10",
+    date: "2026-05-30",
     image: "/images/activity-3.png",
   },
   {
     id: "4",
     title: "Urban Tree Planting",
     description: "Upcoming: Urban Tree Planting for a greener community. Within Ilorin.",
-    date: "2023-11-05",
+    date: "2026-06-25",
     image: "/images/activity-4.png",
   }
 ];
