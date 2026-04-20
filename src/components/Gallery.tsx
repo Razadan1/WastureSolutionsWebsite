@@ -9,7 +9,7 @@ const images = [
   { id: 3, src: "/images/gallery-3.png", alt: "Volunteers at a community cleanup" },
   { id: 4, src: "/images/biogas2.jpeg", alt: "Biogas Plant" },
   { id: 5, src: "/images/gallery-5.png", alt: "Lush green landscape in Lagos" },
-  { id: 6, src: "/images/biogas3.mp4", alt: "Biogas video" },
+  { id: 6, src: "/images/giogasfloor.jpeg", alt: "Buried Digester" },
 ];
 
 export function Gallery() {
