@@ -13,13 +13,14 @@ export function About() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-sm font-bold tracking-widest text-primary uppercase mb-3">About Us</h2>
-          <p className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+          <h4 className="text-3xl md:text-3xl font-bold text-foreground mb-5" style={{ textAlign: 'justify' }}>
             Pioneering a cleaner, greener Africa where waste is a resource, not a burden.
-          </p>
-          <p className="text-lg text-muted-foreground leading-relaxed">
+          </h4>
+          <p className="text-lg text-muted-foreground leading-relaxed" style={{ textAlign: 'justify' }}>
             Wasture Solutions is a waste management startup dedicated to transforming organic waste into renewable resources. We leverage innovative technology and anaerobic digestion to convert waste into clean biogas and nutrient-rich bio-fertilizers.
             </p>
-            <p>By combining smart logistics with community-driven sustainability, we are building a circular economy that powers homes, supports local agriculture and aim for a cleaner and greener environment across Nigeria.
+            <p className="text-lg text-muted-foreground leading-relaxed" style={{ textAlign: 'justify' }}>
+              By combining smart logistics with community-driven sustainability, we are building a circular economy that powers homes, supports local agriculture and aim for a cleaner and greener environment across Nigeria.
           </p>
         </motion.div>
 
