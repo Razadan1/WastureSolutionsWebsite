@@ -84,13 +84,13 @@ export function About() {
           >
             <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="/images/activity-1.png" 
+                src="/images/cleaning.jpg" 
                 alt="Community clean up" 
                 className="object-cover w-full h-full"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-8">
-                <p className="text-white font-medium text-lg">Upcoming: Environmental Sanitation Exercise.</p>
+                <p className="text-white font-medium text-lg">Environmental Sanitation Exercise.</p>
                 <p className="text-white/80 text-sm mt-1">Keep Ilorin Clean Drive <time dateTime="2026-04-21">April 25, 2026</time></p>
               </div>
             </div>

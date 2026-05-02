@@ -4,12 +4,16 @@ import { X } from "lucide-react";
 import { Dialog, DialogContent, DialogTitle } from "./ui/dialog";
 
 const images = [
-  { id: 1, src: "/images/gallery-1.png", alt: "Waste collection truck in the city" },
-  { id: 2, src: "/images/biogas1.jpeg", alt: "Biogas Plant" },
-  { id: 3, src: "/images/gallery-3.png", alt: "Volunteers at a community cleanup" },
-  { id: 4, src: "/images/biogas2.jpeg", alt: "Biogas Plant" },
-  { id: 5, src: "/images/gallery-5.png", alt: "Lush green landscape in Lagos" },
-  { id: 6, src: "/images/giogasfloor.jpeg", alt: "Buried Digester" },
+  { id: 1, src: "/images/meet.jpg", alt: "Meeting of Wasture CEO and operation officer" },
+  { id: 2, src: "/images/clean1.jpg", alt: "Waste collection truck in the city" },
+  { id: 3, src: "/images/clean3.jpg", alt: "Volunteers at a community cleanup" },
+  
+  { id: 4, src: "/images/meet1.jpg", alt: "KWEPA Truck" },
+  { id: 5, src: "/images/clean2.jpg", alt: "Cleaning Exercise" },
+  { id: 6, src: "/images/clean4.jpg", alt: "Cleaning Exercise" },
+  { id: 7, src: "/images/giogasfloor.jpeg", alt: "Buried Digester" },
+  { id: 8, src: "/images/biogas1.jpeg", alt: "Biogas Plant" },
+  { id: 9, src: "/images/biogas2.jpeg", alt: "Biogas Plant" },
 ];
 
 export function Gallery() {

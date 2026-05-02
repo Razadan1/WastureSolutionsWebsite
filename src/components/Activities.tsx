@@ -32,9 +32,9 @@ const initialActivities = [
   {
     id: "1",
     title: "Environmental Clean-up Drive",
-    description: "Environmental Sanitation exercise and awareness in collaboration with Kwara Ministry of Environment and Youtch Climate Movement. Holding at Tanke, Ilorin, Kwara State.",
+    description: "Environmental Sanitation exercise and awareness in collaboration with Kwara Ministry of Environment and Youth Climate Movement. Held at Tanke, Ilorin, Kwara State.",
     date: "2026-04-25",
-    image: "/images/activity-1.png",
+    image: "/images/First.jpg",
   },
   {
     id: "2",

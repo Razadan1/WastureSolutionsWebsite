@@ -41,9 +41,9 @@ function AnimatedCounter({ value, duration = 2 }: { value: number; duration?: nu
 
 export function Impact() {
   const stats = [
-    { label: "Tons of Waste Collected", value: 500, suffix: "+" },
-    { label: "Communities Reached", value: 120, suffix: "" },
-    { label: "Volunteers Engaged", value: 2000, suffix: "+" },
+    { label: "Bags of Waste Collected", value: 80, suffix: "" },
+    { label: "Communities Reached", value: 2 },
+    { label: "Volunteers Engaged", value: 20, suffix: "+" },
   ];
 
   return (
