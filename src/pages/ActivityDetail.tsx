@@ -69,7 +69,7 @@ const activityDetailCopy: Record<string, DetailCopy> = {
     ],
     metrics: [
       { label: "Waste collected", value: "800kg+", description: "Mixed waste removed from streets and drains." },
-      { label: "Volunteers engaged", value: "15+", description: "Residents and youth participants on the ground." },
+      { label: "Volunteers engaged", value: "20+", description: "Residents and youth participants on the ground." },
       { label: "Community Individuals Engaged", value: "10+", description: "Community awareness and sensitization of proper waste management." },
     ],
     quote: {
