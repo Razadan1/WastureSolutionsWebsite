@@ -27,37 +27,11 @@ import {
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
 import { useToast } from "@/hooks/use-toast";
+import { Link } from "wouter";
+import type { Activity } from "@/lib/activities";
+import { activitiesData } from "@/lib/activities";
 
-const initialActivities = [
-  {
-    id: "1",
-    title: "Environmental Clean-up Drive",
-    description: "Environmental Sanitation exercise and awareness in collaboration with Kwara Ministry of Environment and Youth Climate Movement. Held at Tanke, Ilorin, Kwara State.",
-    date: "2026-04-25",
-    image: "/images/First.jpg",
-  },
-  {
-    id: "2",
-    title: "Installation of Anaerobic Digester",
-    description: "Upcoming: Installation of our advanced anaerobic digester.",
-    date: "2026-05-15",
-    image: "/images/bioplant.jpg",
-  },
-  {
-    id: "3",
-    title: "School Awareness Tour",
-    description: "Upcoming: School Awareness Tour on environmental stewardship.",
-    date: "2026-05-30",
-    image: "/images/activity-3.png",
-  },
-  {
-    id: "4",
-    title: "Urban Tree Planting",
-    description: "Upcoming: Urban Tree Planting for a greener community. Within Ilorin.",
-    date: "2026-06-25",
-    image: "/images/activity-4.png",
-  }
-];
+
 
 const formSchema = z.object({
   title: z.string().min(3, "Title must be at least 3 characters"),
@@ -67,7 +41,7 @@ const formSchema = z.object({
 });
 
 export function Activities() {
-  const [activities, setActivities] = useState(initialActivities);
+  const [activities, setActivities] = useState<Activity[]>(activitiesData);
   const [open, setOpen] = useState(false);
   const { toast } = useToast();
 
@@ -89,6 +63,8 @@ export function Activities() {
       date: values.date,
       // Fallback to a gallery image if none provided
       image: values.imageUrl || "/images/gallery-5.png",
+      // Ensure the required `gallery` property is present for the Activity type
+      gallery: [values.imageUrl || "/images/gallery-5.png"],
     };
     
     setActivities([newActivity, ...activities]);
@@ -218,8 +194,10 @@ export function Activities() {
                   <p className="text-muted-foreground text-sm line-clamp-3 mb-4">
                     {activity.description}
                   </p>
-                  <Button variant="link" className="px-0 h-auto text-primary hover:text-primary/80 font-semibold group-hover:underline">
-                    Read more →
+                  <Button asChild variant="link" className="px-0 h-auto text-primary hover:text-primary/80 font-semibold group-hover:underline">
+                    <Link href={`/activities/${activity.id}`}>
+                      Read more →
+                    </Link>
                   </Button>
                 </CardContent>
               </Card>

@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { About } from "@/components/About";
@@ -10,6 +11,17 @@ import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 
 export default function Home() {
+  useEffect(() => {
+    document.title = "Wasture Solutions | Sustainable Waste Management";
+
+    const description = "Wasture Solutions delivers clean, community-driven waste management, recycling, and environmental impact projects across Kwara State.";
+    const existingDescription = document.querySelector('meta[name="description"]');
+
+    if (existingDescription) {
+      existingDescription.setAttribute("content", description);
+    }
+  }, []);
+
   return (
     <div className="min-h-[100dvh] flex flex-col w-full bg-background text-foreground">
       <Navbar />

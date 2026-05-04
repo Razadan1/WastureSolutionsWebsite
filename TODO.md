@@ -1,12 +1,16 @@
-# TODO: Justify text alignment in content sections
+# Activity Read More Blog Implementation
 
-## Status: 3/5 complete (CSS global fix + dev server)
+## Remaining Steps:
+- [ ] Step 5: Test with `npm run dev`, verify navigation and pages.
 
-### Steps:
-- [ ] Edit src/components/About.tsx (add `text-justify` to 4x paragraphs)
-- [ ] Edit src/components/Services.tsx (add `text-justify` to 3x CardDescription)
-- [ ] Edit src/components/Contact.tsx (add `text-justify` to intro p)
-- [ ] `npm run dev` to preview
-- [ ] git commit/push
+## Completed Steps:
+- [x] Step 1: Create `src/lib/activities.ts` - Export `activitiesData` array with gallery images per activity, `Activity` type.
+- [x] Step 2: Create `src/pages/ActivityDetail.tsx` - Blog page using Wouter useRoute, find activity by id, render details + gallery.
+- [x] Step 3: Update `src/components/Activities.tsx` - Import activitiesData, init state with it, replace 'Read more' Button with Link-wrapped Button.
+- [x] Step 4: Update `src/App.tsx` - Add dynamic route `/activities/:id` for ActivityDetail.
 
-Progress updated after each step.
+## Completed Steps:
+- [x] Step 1: Create `src/lib/activities.ts` - Export `activitiesData` array with gallery images per activity, `Activity` type.
+- [x] Step 2: Create `src/pages/ActivityDetail.tsx` - Blog page using Wouter useRoute, find activity by id, render details + gallery.
+
+
