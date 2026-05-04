@@ -44,7 +44,7 @@ export const activitiesData: Activity[] = [
         '/images/eleven.jpeg',
         '/images/twelve.jpeg',
       ],
-    fullContent: 'Our Environmental Clean-up Drive was a resounding success! In collaboration with the Kwara Ministry of Environment and Youth Climate Movement, we organized a comprehensive sanitation exercise and awareness campaign at Tanke, Ilorin.\n\nKey highlights:\n- Collected over 800kg of waste\n- Engaged 15+ community volunteers \n- Discussed with 10+ individuals in the community on environmental sanitation by vreating awareness \n\nPhotos from the event showcase the team\'s dedication and community spirit. This initiative underscores Wasture Solutions\' commitment to a cleaner Kwara State.',
+    fullContent: 'Our Environmental Clean-up Drive was a resounding success! In collaboration with the Kwara Ministry of Environment and Youth Climate Movement, we organized a comprehensive sanitation exercise and awareness campaign at Tanke, Ilorin.\n\nKey highlights:\n- Collected over 800kg of waste\n- Engaged 20+ community volunteers \n- Discussed with 10+ individuals in the community on environmental sanitation by vreating awareness \n\nPhotos from the event showcase the team\'s dedication and community spirit. This initiative underscores Wasture Solutions\' commitment to a cleaner Kwara State.',
   },
   {
     id: '2',
