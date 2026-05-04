@@ -69,7 +69,7 @@ export const activitiesData: Activity[] = [
     title: 'Urban Tree Planting',
     description: 'Upcoming: Urban Tree Planting for a greener community. Within Ilorin.',
     date: '2026-06-25',
-    image: '/images/activity-4.png',
+    image: '/images/plant.png',
     gallery: ['/images/activity-4.png'],
     fullContent: 'Join us for Urban Tree Planting! Targeting 200 trees across key locations in Ilorin.\n\nThis initiative will:\n- Improve air quality\n- Provide shade and beauty\n- Combat urban heat island effect\n- Create community green spaces\n\nVolunteers welcome! Registration opening soon.',
   },

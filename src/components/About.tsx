@@ -84,7 +84,7 @@ export function About() {
           >
             <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="/images/cleaning.jpg" 
+                src="/images/cleaning.jpeg" 
                 alt="Community clean up" 
                 className="object-cover w-full h-full"
               />
